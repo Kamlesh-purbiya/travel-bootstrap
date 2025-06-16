@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Wanderlust Travel Agency</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <i class="bi bi-compass text-warning me-2 fs-3"></i>
+        <span class="fw-bold">Wanderlust</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="destinations.html">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tours.html">Tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonials.html">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-warning text-white rounded-pill px-4" href="contact.html">Book Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="py-5 bg-light mt-5">
+    <div class="container py-4">
+      <h1 class="display-4 text-center mb-4">Contact Us</h1>
+      <p class="lead text-center text-muted mb-0">Let's start planning your dream vacation</p>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Contact Information -->
+        <div class="col-lg-4">
+          <h3 class="mb-4">Get in Touch</h3>
+          <p class="text-muted mb-4">Have questions about our tours or need help planning your trip? Our travel experts are here to help!</p>
+          
+          <div class="d-flex mb-4">
+            <div class="flex-shrink-0">
+              <i class="bi bi-geo-alt text-warning fs-4"></i>
+            </div>
+            <div class="ms-3">
+              <h5 class="mb-1">Visit Us</h5>
+              <p class="text-muted mb-0">123 Travel Street<br>Ahmedabd, INDIA</p>
+            </div>
+          </div>
+
+          <div class="d-flex mb-4">
+            <div class="flex-shrink-0">
+              <i class="bi bi-telephone text-warning fs-4"></i>
+            </div>
+            <div class="ms-3">
+              <h5 class="mb-1">Call Us</h5>
+              <p class="text-muted mb-0">(555) 123-4567<br>Mon-Fri, 9AM-6PM</p>
+            </div>
+          </div>
+
+          <div class="d-flex mb-4">
+            <div class="flex-shrink-0">
+              <i class="bi bi-envelope text-warning fs-4"></i>
+            </div>
+            <div class="ms-3">
+              <h5 class="mb-1">Email Us</h5>
+              <p class="text-muted mb-0">info@wanderlust.com<br>support@wanderlust.com</p>
+            </div>
+          </div>
+
+          <div class="d-flex mb-4">
+            <div class="flex-shrink-0">
+              <i class="bi bi-chat-dots text-warning fs-4"></i>
+            </div>
+            <div class="ms-3">
+              <h5 class="mb-1">Live Chat</h5>
+              <p class="text-muted mb-0">Chat with our travel experts<br>Available 24/7</p>
+            </div>
+          </div>
+
+          <h5 class="mb-3">Follow Us</h5>
+          <div class="d-flex gap-3">
+            <a href="#" class="btn btn-outline-warning rounded-circle">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="btn btn-outline-warning rounded-circle">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="btn btn-outline-warning rounded-circle">
+              <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="#" class="btn btn-outline-warning rounded-circle">
+              <i class="bi bi-pinterest"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-8">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body p-4 p-lg-5">
+              <h3 class="mb-4">Book Your Dream Vacation</h3>
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" class="form-control" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Phone</label>
+                    <input type="tel" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Preferred Contact Method</label>
+                    <select class="form-select">
+                      <option value="email">Email</option>
+                      <option value="phone">Phone</option>
+                      <option value="whatsapp">WhatsApp</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Destination</label>
+                    <select class="form-select" required>
+                      <option value="" selected disabled>Select destination</option>
+                      <option>Bali, Indonesia</option>
+                      <option>Santorini, Greece</option>
+                      <option>Kyoto, Japan</option>
+                      <option>Machu Picchu, Peru</option>
+                      <option>Amalfi Coast, Italy</option>
+                      <option>Other (specify below)</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Number of Travelers</label>
+                    <select class="form-select" required>
+                      <option value="" selected disabled>Select</option>
+                      <option>1 Person</option>
+                      <option>2 People</option>
+                      <option>3-4 People</option>
+                      <option>5+ People</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Travel Date</label>
+                    <input type="date" class="form-control" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Duration</label>
+                    <select class="form-select">
+                      <option>3-5 days</option>
+                      <option>6-9 days</option>
+                      <option>10-15 days</option>
+                      <option>16+ days</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label">Special Requirements or Questions</label>
+                    <textarea class="form-control" rows="4"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="newsletter">
+                      <label class="form-check-label" for="newsletter">
+                        Subscribe to our newsletter for travel deals and tips
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-warning text-white w-100 rounded-5 py-3">Submit Inquiry</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h3 class="mb-4">Visit Our Office</h3>
+          <div class="">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29683.604541763645!2d72.67424525!3d23.016482799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1748626052227!5m2!1sen!2sin" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer  -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <a class="d-flex align-items-center text-white text-decoration-none mb-3" href="index.html">
+            <i class="bi bi-compass text-warning me-2 fs-3"></i>
+            <span class="fw-bold fs-4">Wanderlust</span>
+          </a>
+          <p class="text-light">Creating unforgettable travel experiences since 2010.</p>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-instagram fs-5"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-twitter-x fs-5"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-pinterest fs-5"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <h5 class="mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+            <li><a href="destinations.html" class="text-light text-decoration-none">Destinations</a></li>
+            <li><a href="tours.html" class="text-light text-decoration-none">Tours</a></li>
+            <li><a href="gallery.html" class="text-light text-decoration-none">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <h5 class="mb-3">Contact Info</h5>
+          <ul class="list-unstyled text-light">
+            <li><i class="bi bi-geo-alt me-2"></i>123 Travel Street, New York, NY</li>
+            <li><i class="bi bi-telephone me-2"></i>(555) 123-4567</li>
+            <li><i class="bi bi-envelope me-2"></i>info@wanderlust.com</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <h5 class="mb-3">Newsletter</h5>
+          <p class="text-light">Subscribe for travel tips and exclusive deals!</p>
+          <form class="mb-3">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Your email">
+              <button class="btn btn-warning text-white">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="text-center text-light">
+        <small>&copy; 2024 Wanderlust Travel Agency. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
